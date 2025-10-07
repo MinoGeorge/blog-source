@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Kdiidn&#39;s Blog</title>
+    <link>https://kdiidnblog.site/</link>
+    <description>Recent content on Kdiidn&#39;s Blog</description>
+    <generator>Hugo -- 0.151.0</generator>
+    <language>en</language>
+    <copyright>©Copyright 2025 Kdiidn</copyright>
+    <lastBuildDate>Sun, 23 Mar 2025 14:46:32 +0800</lastBuildDate>
+    <atom:link href="https://kdiidnblog.site/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>[工程化学]化学热力学</title>
+      <link>https://kdiidnblog.site/learning/%E5%B7%A5%E7%A8%8B%E5%8C%96%E5%AD%A6/%E5%8C%96%E5%AD%A6%E7%83%AD%E5%8A%9B%E5%AD%A6/</link>
+      <pubDate>Mon, 10 Mar 2025 16:47:24 +0800</pubDate>
+      <guid>https://kdiidnblog.site/learning/%E5%B7%A5%E7%A8%8B%E5%8C%96%E5%AD%A6/%E5%8C%96%E5%AD%A6%E7%83%AD%E5%8A%9B%E5%AD%A6/</guid>
+      <description>&lt;h2 id=&#34;热力学常用术语&#34;&gt;热力学常用术语&lt;/h2&gt;
+&lt;p&gt;体系：研究对象，根据研究对象的不同，又可以划分为：敞开体系（体系与环境之间既有能量转换，又有物质交换），封闭体系（体系与环境之间有能量转换，没有物质交换），孤立体系（体系与环境之间既无能量转换，又无物质交换。）&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>[电工学]电路基本概念和基本定律</title>
+      <link>https://kdiidnblog.site/learning/%E7%94%B5%E5%B7%A5%E5%AD%A6/%E7%AC%AC%E4%B8%80%E7%AB%A0-%E7%94%B5%E8%B7%AF%E5%9F%BA%E6%9C%AC%E6%A6%82%E5%BF%B5%E5%92%8C%E5%9F%BA%E6%9C%AC%E5%AE%9A%E5%BE%8B/</link>
+      <pubDate>Mon, 10 Mar 2025 16:47:24 +0800</pubDate>
+      <guid>https://kdiidnblog.site/learning/%E7%94%B5%E5%B7%A5%E5%AD%A6/%E7%AC%AC%E4%B8%80%E7%AB%A0-%E7%94%B5%E8%B7%AF%E5%9F%BA%E6%9C%AC%E6%A6%82%E5%BF%B5%E5%92%8C%E5%9F%BA%E6%9C%AC%E5%AE%9A%E5%BE%8B/</guid>
+      <description>&lt;h2 id=&#34;1参考方向&#34;&gt;1.参考方向&lt;/h2&gt;
+&lt;p&gt;参考方向在电路计算中可以简化确定实际电流方向的难度，通过在原有公式的基础上增加一套正负号来减轻复杂电路分析的成本。（可以与单位向量概念联系）&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>[材料力学]绪论</title>
+      <link>https://kdiidnblog.site/learning/%E6%9D%90%E6%96%99%E5%8A%9B%E5%AD%A6/%E6%9D%90%E6%96%99%E5%8A%9B%E5%AD%A6%E7%BB%AA%E8%AE%BA/</link>
+      <pubDate>Tue, 25 Feb 2025 16:47:24 +0800</pubDate>
+      <guid>https://kdiidnblog.site/learning/%E6%9D%90%E6%96%99%E5%8A%9B%E5%AD%A6/%E6%9D%90%E6%96%99%E5%8A%9B%E5%AD%A6%E7%BB%AA%E8%AE%BA/</guid>
+      <description>&lt;h2 id=&#34;材料力学的任务&#34;&gt;材料力学的任务&lt;/h2&gt;
+&lt;p&gt;1.强度要求&lt;/p&gt;
+&lt;p&gt;2.刚度要求&lt;/p&gt;
+&lt;p&gt;3.稳定性要求&lt;/p&gt;
+&lt;h2 id=&#34;三大基本假设&#34;&gt;三大基本假设&lt;/h2&gt;
+&lt;p&gt;1.连续性假设（巧克力棒是一整根）&lt;/p&gt;
+&lt;p&gt;2.均匀性假设（糖化开了、调料和开了）&lt;/p&gt;
+&lt;p&gt;3.各向同性假设（你以任何方向吃巧克力，味道都是一样的）&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>在博客文章中使用LaTeX</title>
+      <link>https://kdiidnblog.site/learning/blog_web/%E5%9C%A8%E5%8D%9A%E5%AE%A2%E6%96%87%E7%AB%A0%E4%B8%AD%E4%BD%BF%E7%94%A8latex/</link>
+      <pubDate>Mon, 24 Feb 2025 21:20:49 +0800</pubDate>
+      <guid>https://kdiidnblog.site/learning/blog_web/%E5%9C%A8%E5%8D%9A%E5%AE%A2%E6%96%87%E7%AB%A0%E4%B8%AD%E4%BD%BF%E7%94%A8latex/</guid>
+      <description>&lt;p&gt;最近需要整理一些学习资料，理科又不可避免的要用到一些数学公式，生成公式的图片太过麻烦并且不好整理文件，不如为Papermod添加公式显示功能。&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>写在前面的话</title>
+      <link>https://kdiidnblog.site/reading/educated/%E5%86%99%E5%9C%A8%E5%89%8D%E9%9D%A2%E7%9A%84%E8%AF%9D/</link>
+      <pubDate>Mon, 17 Feb 2025 08:42:22 +0800</pubDate>
+      <guid>https://kdiidnblog.site/reading/educated/%E5%86%99%E5%9C%A8%E5%89%8D%E9%9D%A2%E7%9A%84%E8%AF%9D/</guid>
+      <description>&lt;p&gt;这本书来自于我的一位朋友，在手中吃了一段时间灰之后，由于这个博客的原因，我决定重新启动我的读书计划。&lt;/p&gt;
+&lt;p&gt;去掉外封，它原本的封面雪白，内附铅笔状书签一个，上面写道：&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>[材料力学]拉伸，压缩与剪切</title>
+      <link>https://kdiidnblog.site/learning/%E6%9D%90%E6%96%99%E5%8A%9B%E5%AD%A6/%E6%9D%90%E6%96%99%E5%8A%9B%E5%AD%A6%E6%8B%89%E4%BC%B8%E5%8E%8B%E7%BC%A9%E4%B8%8E%E5%89%AA%E5%88%87/</link>
+      <pubDate>Wed, 05 Mar 2025 16:47:24 +0800</pubDate>
+      <guid>https://kdiidnblog.site/learning/%E6%9D%90%E6%96%99%E5%8A%9B%E5%AD%A6/%E6%9D%90%E6%96%99%E5%8A%9B%E5%AD%A6%E6%8B%89%E4%BC%B8%E5%8E%8B%E7%BC%A9%E4%B8%8E%E5%89%AA%E5%88%87/</guid>
+      <description>&lt;h2 id=&#34;一些基本概念&#34;&gt;一些基本概念&lt;/h2&gt;
+&lt;ol&gt;
+&lt;li&gt;&lt;strong&gt;轴力&lt;/strong&gt;：与杆件轴线相重合的内力。其符号由其方向决定，压力为负，拉力为正。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;应力&lt;/strong&gt; ：物体由于外因而变形时，在物体内各部分之间产生相互作用的内力， &lt;strong&gt;单位面积上的内力&lt;/strong&gt; 称为应力。同截面垂直的称为正应力或法向应力，同截面相切的称为剪应力或切应力。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;轴力图&lt;/strong&gt; ：根据计算得到的轴力随着沿着轴的位置变化的图线。示例见下图。&lt;/li&gt;
+&lt;/ol&gt;
+&lt;div style=&#34;text-align: center;&#34;&gt;
+  &lt;img src=&#34;https://pic2.imge.cc/2025/03/12/67d05f4fccfee.bmp&#34; alt=&#34;&#34; style=&#34;display: inline-block; max-width: 100%; height: auto;&#34;&gt;
+&lt;/div&gt;
+
+&lt;ol&gt;
+&lt;li&gt;&lt;strong&gt;正应力 &lt;code&gt;$\sigma$&lt;/code&gt;&lt;/strong&gt; ：对于一个直杆件来说，其横截面上受到的应力为正应力，轴力 &lt;code&gt;$F_N$&lt;/code&gt; 对应的应力就是正应力。同时二者满足：&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;&lt;code&gt;$$ F_N = \int_{A}{\sigma dA} $$&lt;/code&gt;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>你当像鸟飞向你的山   序</title>
+      <link>https://kdiidnblog.site/reading/educated/%E4%BD%A0%E5%BD%93%E5%83%8F%E9%B8%9F%E9%A3%9E%E5%90%91%E4%BD%A0%E7%9A%84%E5%B1%B1_%E5%BA%8F/</link>
+      <pubDate>Thu, 20 Feb 2025 15:33:18 +0800</pubDate>
+      <guid>https://kdiidnblog.site/reading/educated/%E4%BD%A0%E5%BD%93%E5%83%8F%E9%B8%9F%E9%A3%9E%E5%90%91%E4%BD%A0%E7%9A%84%E5%B1%B1_%E5%BA%8F/</guid>
+      <description>&lt;blockquote&gt;
+&lt;p&gt;在这种靠山近的地方，风力强劲，仿佛山在自己呼气。&lt;/p&gt;&lt;/blockquote&gt;
+&lt;p&gt;我读到这里觉得很有画面感，想象一下，你在黄昏时刻，看着远方的那些景物。假若换成照片，这张照片肯定是极其富有意境美的，”这是独属于他的时间。“。未来的生活，我一定要体验一下这种生活。&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>择善</title>
+      <link>https://kdiidnblog.site/reading/educated/%E6%8B%A9%E5%96%84/</link>
+      <pubDate>Wed, 19 Feb 2025 14:26:11 +0800</pubDate>
+      <guid>https://kdiidnblog.site/reading/educated/%E6%8B%A9%E5%96%84/</guid>
+      <description>&lt;blockquote&gt;
+&lt;p&gt;&lt;strong&gt;一声枪响，像鞭子抽打的声音，她倒下了。在我的回忆中，倒下的总是母亲，她怀里还抱着一个婴儿。&lt;/strong&gt;&lt;/p&gt;&lt;/blockquote&gt;
+&lt;p&gt;人的记忆的确是可以被创造的，幼时的我们擅长想象那些帅气的电影情节，喜欢成龙的打斗，喜欢动画主人公的灵机妙动。作者依靠这么一段自己被想象的回忆，勾起了我的回忆。&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>助产士</title>
+      <link>https://kdiidnblog.site/reading/educated/%E5%8A%A9%E4%BA%A7%E5%A3%AB/</link>
+      <pubDate>Wed, 19 Feb 2025 22:24:33 +0800</pubDate>
+      <guid>https://kdiidnblog.site/reading/educated/%E5%8A%A9%E4%BA%A7%E5%A3%AB/</guid>
+      <description>&lt;blockquote&gt;
+&lt;p&gt;助产士的工作改变了我的母亲。作为一名有七个孩子的女性，有生以来她第一次毋庸置疑地成为那个掌控局面的人。&lt;/p&gt;&lt;/blockquote&gt;
+&lt;p&gt;第一次的成功给母亲带来了500美元的收入，同时增强了她的信心，使得她慢慢成长为一名助产士，这也使得“我”慢慢接触到了科学。&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>奶油色鞋子</title>
+      <link>https://kdiidnblog.site/reading/educated/%E5%A5%B6%E6%B2%B9%E8%89%B2%E9%9E%8B%E5%AD%90/</link>
+      <pubDate>Thu, 20 Feb 2025 15:38:24 +0800</pubDate>
+      <guid>https://kdiidnblog.site/reading/educated/%E5%A5%B6%E6%B2%B9%E8%89%B2%E9%9E%8B%E5%AD%90/</guid>
+      <description>&lt;p&gt;这篇文章，读完要回答一个问题：什么是奶油色鞋子？&lt;/p&gt;
+&lt;p&gt;奶油色鞋子是文章中母亲与去世的外婆的联系，是我所听到的故事中的外婆，是旧时代的象征物。&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;穿好衣服后，我转身面对镜子，一边掸去领口上的泥垢，一边心想着母亲能够从那样的世界逃离真的是太幸运了。在那个世界，白色和奶油色有着重要区别，这样的问题可能会影响到一个完美的早晨，一个本可以牵着卢克的羊到爸爸的废料厂寻宝的早晨。&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>K-Week(1)</title>
+      <link>https://kdiidnblog.site/k-week1/</link>
+      <pubDate>Sun, 23 Mar 2025 14:46:32 +0800</pubDate>
+      <guid>https://kdiidnblog.site/k-week1/</guid>
+      <description>&lt;p&gt;Hello, everyone.&lt;/p&gt;
+&lt;p&gt;准确来说，这是第一期周报（开瓶84年的可乐庆祝一下），我在想要不要写个劲爆的开场？&lt;/p&gt;
+&lt;p&gt;来看看这周发生了些什么&amp;hellip;&amp;hellip;&lt;/p&gt;
+&lt;h2 id=&#34;关于博客的改装&#34;&gt;关于博客的改装&lt;/h2&gt;
+&lt;p&gt;我需要购买最新的义体，来帮助我解决恼人的Javascript&amp;hellip;主要是的确是没有时间去学，所以网站的改装可能会搁置一小段时间，不过我争取至少每周有一期周报！（真的吗？（尝试手动狗头中&amp;hellip;））&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Hi,this kdiidn</title>
+      <link>https://kdiidnblog.site/about/</link>
+      <pubDate>Tue, 18 Feb 2025 15:02:11 +0800</pubDate>
+      <guid>https://kdiidnblog.site/about/</guid>
+      <description>&lt;p&gt;如果你问我为什么要做这么一个博客，我会这么回答你，&lt;strong&gt;人生中会有这么几个瞬间，需要我们用文字，用照片来记录。而这么些瞬间，就构成了我的世界。&lt;/strong&gt; 互联网给了我这么一个空间，让我来叙述我的点滴。&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>书籍，音乐和娱乐</title>
+      <link>https://kdiidnblog.site/%E4%B9%A6%E7%B1%8D%E9%9F%B3%E4%B9%90%E5%92%8C%E5%A8%B1%E4%B9%90/</link>
+      <pubDate>Mon, 18 Dec 2023 14:46:32 +0800</pubDate>
+      <guid>https://kdiidnblog.site/%E4%B9%A6%E7%B1%8D%E9%9F%B3%E4%B9%90%E5%92%8C%E5%A8%B1%E4%B9%90/</guid>
+      <description>&lt;p&gt;现代社会，我们所获取信息的方式逐渐变得多元化，每个人都可以在互联网上找到自己所需的东西——无论是商品，还是知识。阅读似乎变成一件奢求的事，我们似乎更加注重结果而不是享受过程。当年的闲书早已落下灰尘，泛黄的书页透露着我们那段最美丽的岁月。&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

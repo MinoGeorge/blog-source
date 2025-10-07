@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Blog on Kdiidn&#39;s Blog</title>
+    <link>https://kdiidnblog.site/tags/blog/</link>
+    <description>Recent content in Blog on Kdiidn&#39;s Blog</description>
+    <generator>Hugo -- 0.151.0</generator>
+    <language>en</language>
+    <copyright>©Copyright 2025 Kdiidn</copyright>
+    <lastBuildDate>Mon, 24 Feb 2025 21:20:49 +0800</lastBuildDate>
+    <atom:link href="https://kdiidnblog.site/tags/blog/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>在博客文章中使用LaTeX</title>
+      <link>https://kdiidnblog.site/learning/blog_web/%E5%9C%A8%E5%8D%9A%E5%AE%A2%E6%96%87%E7%AB%A0%E4%B8%AD%E4%BD%BF%E7%94%A8latex/</link>
+      <pubDate>Mon, 24 Feb 2025 21:20:49 +0800</pubDate>
+      <guid>https://kdiidnblog.site/learning/blog_web/%E5%9C%A8%E5%8D%9A%E5%AE%A2%E6%96%87%E7%AB%A0%E4%B8%AD%E4%BD%BF%E7%94%A8latex/</guid>
+      <description>&lt;p&gt;最近需要整理一些学习资料，理科又不可避免的要用到一些数学公式，生成公式的图片太过麻烦并且不好整理文件，不如为Papermod添加公式显示功能。&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

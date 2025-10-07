@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Kdiidn&#39;s Blog</title>
+    <link>https://kdiidnblog.site/post/</link>
+    <description>Recent content on Kdiidn&#39;s Blog</description>
+    <generator>Hugo -- 0.151.0</generator>
+    <language>en</language>
+    <copyright>©Copyright 2025 Kdiidn</copyright>
+    <lastBuildDate>Sun, 23 Mar 2025 14:46:32 +0800</lastBuildDate>
+    <atom:link href="https://kdiidnblog.site/post/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>K-Week(1)</title>
+      <link>https://kdiidnblog.site/k-week1/</link>
+      <pubDate>Sun, 23 Mar 2025 14:46:32 +0800</pubDate>
+      <guid>https://kdiidnblog.site/k-week1/</guid>
+      <description>&lt;p&gt;Hello, everyone.&lt;/p&gt;
+&lt;p&gt;准确来说，这是第一期周报（开瓶84年的可乐庆祝一下），我在想要不要写个劲爆的开场？&lt;/p&gt;
+&lt;p&gt;来看看这周发生了些什么&amp;hellip;&amp;hellip;&lt;/p&gt;
+&lt;h2 id=&#34;关于博客的改装&#34;&gt;关于博客的改装&lt;/h2&gt;
+&lt;p&gt;我需要购买最新的义体，来帮助我解决恼人的Javascript&amp;hellip;主要是的确是没有时间去学，所以网站的改装可能会搁置一小段时间，不过我争取至少每周有一期周报！（真的吗？（尝试手动狗头中&amp;hellip;））&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>书籍，音乐和娱乐</title>
+      <link>https://kdiidnblog.site/%E4%B9%A6%E7%B1%8D%E9%9F%B3%E4%B9%90%E5%92%8C%E5%A8%B1%E4%B9%90/</link>
+      <pubDate>Mon, 18 Dec 2023 14:46:32 +0800</pubDate>
+      <guid>https://kdiidnblog.site/%E4%B9%A6%E7%B1%8D%E9%9F%B3%E4%B9%90%E5%92%8C%E5%A8%B1%E4%B9%90/</guid>
+      <description>&lt;p&gt;现代社会，我们所获取信息的方式逐渐变得多元化，每个人都可以在互联网上找到自己所需的东西——无论是商品，还是知识。阅读似乎变成一件奢求的事，我们似乎更加注重结果而不是享受过程。当年的闲书早已落下灰尘，泛黄的书页透露着我们那段最美丽的岁月。&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

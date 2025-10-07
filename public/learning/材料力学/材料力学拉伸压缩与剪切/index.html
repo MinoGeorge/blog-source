@@ -1,0 +1,405 @@
+<!DOCTYPE html>
+<html lang="en" dir="auto">
+
+<head><meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<meta name="robots" content="index, follow">
+<title>[材料力学]拉伸，压缩与剪切 | Kdiidn&#39;s Blog</title>
+<meta name="keywords" content="Learning, Notes, 课堂笔记">
+<meta name="description" content="一些基本概念
+
+轴力：与杆件轴线相重合的内力。其符号由其方向决定，压力为负，拉力为正。
+应力 ：物体由于外因而变形时，在物体内各部分之间产生相互作用的内力， 单位面积上的内力 称为应力。同截面垂直的称为正应力或法向应力，同截面相切的称为剪应力或切应力。
+轴力图 ：根据计算得到的轴力随着沿着轴的位置变化的图线。示例见下图。
+
+
+  
+
+
+
+正应力 $\sigma$ ：对于一个直杆件来说，其横截面上受到的应力为正应力，轴力 $F_N$ 对应的应力就是正应力。同时二者满足：
+
+$$ F_N = \int_{A}{\sigma dA} $$">
+<meta name="author" content="">
+<link rel="canonical" href="https://kdiidnblog.site/learning/%E6%9D%90%E6%96%99%E5%8A%9B%E5%AD%A6/%E6%9D%90%E6%96%99%E5%8A%9B%E5%AD%A6%E6%8B%89%E4%BC%B8%E5%8E%8B%E7%BC%A9%E4%B8%8E%E5%89%AA%E5%88%87/">
+<link crossorigin="anonymous" href="/assets/css/stylesheet.a090830a421002426baafbd314e38f149d77b4c48a12ee9312700d770b27fb26.css" integrity="sha256-oJCDCkIQAkJrqvvTFOOPFJ13tMSKEu6TEnANdwsn&#43;yY=" rel="preload stylesheet" as="style">
+<link rel="icon" href="https://kdiidnblog.site/favicon.ico">
+<link rel="icon" type="image/png" sizes="16x16" href="https://kdiidnblog.site/favicon-16x16.png">
+<link rel="icon" type="image/png" sizes="32x32" href="https://kdiidnblog.site/favicon-32x32.png">
+<link rel="apple-touch-icon" href="https://kdiidnblog.site/apple-touch-icon.png">
+<link rel="mask-icon" href="https://kdiidnblog.site/safari-pinned-tab.svg">
+<meta name="theme-color" content="#2e2e33">
+<meta name="msapplication-TileColor" content="#2e2e33">
+<link rel="alternate" hreflang="en" href="https://kdiidnblog.site/learning/%E6%9D%90%E6%96%99%E5%8A%9B%E5%AD%A6/%E6%9D%90%E6%96%99%E5%8A%9B%E5%AD%A6%E6%8B%89%E4%BC%B8%E5%8E%8B%E7%BC%A9%E4%B8%8E%E5%89%AA%E5%88%87/">
+<noscript>
+    <style>
+        #theme-toggle,
+        .top-link {
+            display: none;
+        }
+
+    </style>
+</noscript><meta property="og:url" content="https://kdiidnblog.site/learning/%E6%9D%90%E6%96%99%E5%8A%9B%E5%AD%A6/%E6%9D%90%E6%96%99%E5%8A%9B%E5%AD%A6%E6%8B%89%E4%BC%B8%E5%8E%8B%E7%BC%A9%E4%B8%8E%E5%89%AA%E5%88%87/">
+  <meta property="og:site_name" content="Kdiidn&#39;s Blog">
+  <meta property="og:title" content="[材料力学]拉伸，压缩与剪切">
+  <meta property="og:description" content="一些基本概念 轴力：与杆件轴线相重合的内力。其符号由其方向决定，压力为负，拉力为正。 应力 ：物体由于外因而变形时，在物体内各部分之间产生相互作用的内力， 单位面积上的内力 称为应力。同截面垂直的称为正应力或法向应力，同截面相切的称为剪应力或切应力。 轴力图 ：根据计算得到的轴力随着沿着轴的位置变化的图线。示例见下图。 正应力 $\sigma$ ：对于一个直杆件来说，其横截面上受到的应力为正应力，轴力 $F_N$ 对应的应力就是正应力。同时二者满足： $$ F_N = \int_{A}{\sigma dA} $$">
+  <meta property="og:locale" content="en">
+  <meta property="og:type" content="article">
+    <meta property="article:section" content="learning">
+    <meta property="article:published_time" content="2025-03-05T16:47:24+08:00">
+    <meta property="article:modified_time" content="2025-03-05T16:47:24+08:00">
+    <meta property="article:tag" content="Learning">
+    <meta property="article:tag" content="Notes">
+    <meta property="article:tag" content="课堂笔记">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="[材料力学]拉伸，压缩与剪切">
+<meta name="twitter:description" content="一些基本概念
+
+轴力：与杆件轴线相重合的内力。其符号由其方向决定，压力为负，拉力为正。
+应力 ：物体由于外因而变形时，在物体内各部分之间产生相互作用的内力， 单位面积上的内力 称为应力。同截面垂直的称为正应力或法向应力，同截面相切的称为剪应力或切应力。
+轴力图 ：根据计算得到的轴力随着沿着轴的位置变化的图线。示例见下图。
+
+
+  
+
+
+
+正应力 $\sigma$ ：对于一个直杆件来说，其横截面上受到的应力为正应力，轴力 $F_N$ 对应的应力就是正应力。同时二者满足：
+
+$$ F_N = \int_{A}{\sigma dA} $$">
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position":  1 ,
+      "name": "Learnings",
+      "item": "https://kdiidnblog.site/learning/"
+    }, 
+    {
+      "@type": "ListItem",
+      "position":  3 ,
+      "name": "[材料力学]拉伸，压缩与剪切",
+      "item": "https://kdiidnblog.site/learning/%E6%9D%90%E6%96%99%E5%8A%9B%E5%AD%A6/%E6%9D%90%E6%96%99%E5%8A%9B%E5%AD%A6%E6%8B%89%E4%BC%B8%E5%8E%8B%E7%BC%A9%E4%B8%8E%E5%89%AA%E5%88%87/"
+    }
+  ]
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BlogPosting",
+  "headline": "[材料力学]拉伸，压缩与剪切",
+  "name": "[材料力学]拉伸，压缩与剪切",
+  "description": "一些基本概念 轴力：与杆件轴线相重合的内力。其符号由其方向决定，压力为负，拉力为正。 应力 ：物体由于外因而变形时，在物体内各部分之间产生相互作用的内力， 单位面积上的内力 称为应力。同截面垂直的称为正应力或法向应力，同截面相切的称为剪应力或切应力。 轴力图 ：根据计算得到的轴力随着沿着轴的位置变化的图线。示例见下图。 正应力 $\\sigma$ ：对于一个直杆件来说，其横截面上受到的应力为正应力，轴力 $F_N$ 对应的应力就是正应力。同时二者满足： $$ F_N = \\int_{A}{\\sigma dA} $$\n",
+  "keywords": [
+    "Learning", "Notes", "课堂笔记"
+  ],
+  "articleBody": "一些基本概念 轴力：与杆件轴线相重合的内力。其符号由其方向决定，压力为负，拉力为正。 应力 ：物体由于外因而变形时，在物体内各部分之间产生相互作用的内力， 单位面积上的内力 称为应力。同截面垂直的称为正应力或法向应力，同截面相切的称为剪应力或切应力。 轴力图 ：根据计算得到的轴力随着沿着轴的位置变化的图线。示例见下图。 正应力 $\\sigma$ ：对于一个直杆件来说，其横截面上受到的应力为正应力，轴力 $F_N$ 对应的应力就是正应力。同时二者满足： $$ F_N = \\int_{A}{\\sigma dA} $$\n材料均匀时， 同一个横截面上$\\sigma$ 应当处处相等。故上式变为：\n$$ F_N = \\sigma \\int_{A}dA=\\sigma A \\\\\\notag\\ \\\\\\sigma=\\frac{F_N}{A} $$\n直杆轴向拉伸或者压缩时斜截面上的应力 设直杆的轴向拉力为 $F$ ，横截面积为 $A$ 。\n以上图中为例：\n截面 $AB$ 对应的面积为：\n$$ A_\\alpha =\\frac A {\\cos{\\alpha}} $$\n斜截面上的应力为 $p_{\\alpha}$ 其方向根据轴力方向可得为水平方向。有：\n$$ p_\\alpha = \\frac {F_\\alpha}{A_\\alpha}=\\frac{F}{A_\\alpha} $$\n将应力分解为垂直于斜截面的正应力 $\\sigma_\\alpha$ 和相切于斜截面的切应力 $\\tau_\\alpha$ 。\n$$ \\sigma_\\alpha = p_\\alpha \\cos {\\alpha} \\\\\\notag\\\\ \\ \\ \\\\ \\tau_\\alpha=p_\\alpha\\sin{\\alpha} $$\n根据四个式子的关系，最终可以得到：\n$$ \\sigma_\\alpha = \\sigma \\cos^2{\\alpha} \\\\ \\ \\\\ \\tau_\\alpha = \\frac{\\sigma}{2}\\sin{2\\alpha} $$\n上面两个式子描述了某个斜截面的正应力和切应力与其对应的横截面所受到的正应力的关系。由此关系我们可以得到一些有趣的结论。下图是两个式子中 $\\sigma$ 的系数随着角度 $\\alpha$ 变化的图像。\n我们可以发现以下三个结论：\n$\\alpha=0 $ 时，正应力出现最大值。 $\\alpha=\\frac {1}{4}\\pi$ 时，切应力出现最大值。 $\\alpha=\\frac {1}{2}\\pi$ 时，两个应力消失，即平行与杆件轴线方向的纵向截面上没有任何应力。 不同材料拉伸时的力学性能 低碳钢（塑性材料） 低碳钢被拉伸时，分为四个阶段：\n弹性阶段，此时有： $\\sigma=E\\epsilon$ ($E$为图片上线段的斜率)，即材料发生跟弹簧一样的变形的阶段。 屈服阶段，此时材料的应力基本不变，但是材料的应变却在不断增加，产生塑性变形，可在抛光部件上见到 $\\frac {1}{4}\\pi$ 的滑移线。 强化阶段：此时材料的抵抗变形能力部分恢复，随着应变的增加，材料有应力最大点。 局部变形阶段：过了应力最大点之后，材料某一段横截面积突然极具减小，直到试样被拉断。 试样被拉断后，由以下公式计算伸长率和断面收缩率：\n$$ \\delta = \\frac{l_1-l}{l} \\\\ \\ \\\\\\psi=\\frac{A-A_1}A $$\n假如 $\\delta \u003e5\\%$ 那么材料被称作塑性材料，反之则为脆性材料。\n铸铁（脆性材料） 铸铁在拉伸实验时，没有塑性材料的后面三个阶段，试样在一定变形后直接断裂。同时，脆性材料在弹性变形时的 $\\sigma-\\epsilon$ 曲线从低应力开始就是曲线。\n材料的压缩性能 低碳钢（塑性材料） 压缩时， $\\sigma_s$ 和弹性模量 $E$ 和拉伸时基本一致，在屈服阶段后，材料逐渐变成薄饼。\n铸钢（脆性材料） 材料在压缩时， $\\sigma_b$ 要比拉伸时要大很多，宜作受压构件。材料在应力较低时，应力应变曲线也只是近似满足胡克定律。材料最后沿着与横截面50~55度的斜截面被破坏。\n安全、失效计算 为了保证材料在实际应用的安全，有设计冗余，便有了安全系数和应许应力，它们满足：\n$$ [\\sigma] =\\frac {\\sigma_u}{n} $$\n对于不同的材料，安全系数有不同取值范围：一般来说，塑性材料的安全系数要小于脆性材料的安全系数，但它们都大于1。\n轴向拉伸或者压缩时的变形 轴向变形 根据公式有：\n$$ \\sigma = \\frac {F_N} A \\\\ \\ \\\\ \\sigma = E\\epsilon = E\\frac{\\Delta l} l $$\n所以可以得到：\n$$ \\Delta l=\\frac {F_Nl}{EA} $$\n横向变形 对于横向变形，引入泊松比 $\\mu$ ，其为横向应变与轴向应变的比值绝对值。\n$$ \\mu = \\left| \\frac {\\epsilon'}{\\epsilon} \\right| $$\n一般来说，生活中绝大部分材料都是正泊松比材料。\n应变能 固体在外力作用下，因为变形储存的能量。符号记作 $V_\\epsilon$ 。\n$$ dW = Fd(\\Delta l) \\\\ \\\\W= \\int_{0}^{\\Delta l_1} {Fd(\\Delta l)} $$\n在塑性阶段（塑性极限为 $\\sigma_p$ ），有：\n$$ V_\\epsilon = W= \\frac 1 2 F\\Delta l $$\n单位体积所具有的应变能称为 应变能密度 。\n应力集中 因为杆件外形突然变化，导致局部应力突然增加的现象称为应力集中。\n例如下图中该部分在受压时，由于孔的结构，导致其出现应力最大值。\n（图二绘图路径为穿过孔的平行于X轴的线。）\n理论应力集中系数满足：\n$$ K_\\sigma = \\frac {\\sigma_{max}}{\\sigma_{平均}} $$\n圣维南原理 该原理并没有被完全证明，但实际使用却很多，原理描述如下：\n对于一个杆件，杆端加载方式的不同，只会影响到杆端附近截面的应力分布，离作用点稍远的地方，影响很小。例如我们在改变载荷的分布方式时，就可以据此进行计算。\n",
+  "wordCount" : "1595",
+  "inLanguage": "en",
+  "datePublished": "2025-03-05T16:47:24+08:00",
+  "dateModified": "2025-03-05T16:47:24+08:00",
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "https://kdiidnblog.site/learning/%E6%9D%90%E6%96%99%E5%8A%9B%E5%AD%A6/%E6%9D%90%E6%96%99%E5%8A%9B%E5%AD%A6%E6%8B%89%E4%BC%B8%E5%8E%8B%E7%BC%A9%E4%B8%8E%E5%89%AA%E5%88%87/"
+  },
+  "publisher": {
+    "@type": "Organization",
+    "name": "Kdiidn's Blog",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "https://kdiidnblog.site/favicon.ico"
+    }
+  }
+}
+</script>
+</head>
+
+<body class=" dark" id="top">
+
+<header class="header">
+    <nav class="nav">
+        <div class="logo">
+            <a href="https://kdiidnblog.site/" accesskey="h" title="Kdiidn&#39;s Blog (Alt + H)">Kdiidn&#39;s Blog</a>
+            <div class="logo-switches">
+            </div>
+        </div>
+        <ul id="menu">
+            <li>
+                <a href="https://kdiidnblog.site/" title="Home">
+                    <span>Home</span>
+                </a>
+            </li>
+            <li>
+                <a href="https://kdiidnblog.site/reading" title="Reading">
+                    <span>Reading</span>
+                </a>
+            </li>
+            <li>
+                <a href="https://kdiidnblog.site/learning" title="Learn">
+                    <span>Learn</span>
+                </a>
+            </li>
+            <li>
+                <a href="https://kdiidnblog.site/post" title="Post">
+                    <span>Post</span>
+                </a>
+            </li>
+            <li>
+                <a href="https://kdiidnblog.site/archives" title="Timer">
+                    <span>Timer</span>
+                </a>
+            </li>
+            <li>
+                <a href="https://kdiidnblog.site/about" title="About me">
+                    <span>About me</span>
+                </a>
+            </li>
+        </ul>
+    </nav>
+</header>
+<main class="main">
+
+<article class="post-single">
+  <header class="post-header">
+    <div class="breadcrumbs"><a href="https://kdiidnblog.site/">Home</a>&nbsp;»&nbsp;<a href="https://kdiidnblog.site/learning/">Learnings</a></div>
+    <h1 class="post-title entry-hint-parent">
+      [材料力学]拉伸，压缩与剪切
+    </h1>
+    <div class="post-meta"><span title='2025-03-05 16:47:24 +0800 CST'>March 5, 2025</span>&nbsp;·&nbsp;<span>4 min</span>&nbsp;·&nbsp;<span>1595 words</span>
+
+</div>
+  </header> 
+  <div class="post-content"><h2 id="一些基本概念">一些基本概念<a hidden class="anchor" aria-hidden="true" href="#一些基本概念">#</a></h2>
+<ol>
+<li><strong>轴力</strong>：与杆件轴线相重合的内力。其符号由其方向决定，压力为负，拉力为正。</li>
+<li><strong>应力</strong> ：物体由于外因而变形时，在物体内各部分之间产生相互作用的内力， <strong>单位面积上的内力</strong> 称为应力。同截面垂直的称为正应力或法向应力，同截面相切的称为剪应力或切应力。</li>
+<li><strong>轴力图</strong> ：根据计算得到的轴力随着沿着轴的位置变化的图线。示例见下图。</li>
+</ol>
+<div style="text-align: center;">
+  <img src="https://pic2.imge.cc/2025/03/12/67d05f4fccfee.bmp" alt="" style="display: inline-block; max-width: 100%; height: auto;">
+</div>
+
+<ol>
+<li><strong>正应力 <code>$\sigma$</code></strong> ：对于一个直杆件来说，其横截面上受到的应力为正应力，轴力 <code>$F_N$</code> 对应的应力就是正应力。同时二者满足：</li>
+</ol>
+<p><code>$$ F_N = \int_{A}{\sigma dA} $$</code></p>
+<p>材料均匀时， 同一个横截面上<code>$\sigma$</code> 应当处处相等。故上式变为：</p>
+<p><code>$$ F_N = \sigma \int_{A}dA=\sigma A \\\notag\ \\\sigma=\frac{F_N}{A} $$</code></p>
+<h2 id="直杆轴向拉伸或者压缩时斜截面上的应力">直杆轴向拉伸或者压缩时斜截面上的应力<a hidden class="anchor" aria-hidden="true" href="#直杆轴向拉伸或者压缩时斜截面上的应力">#</a></h2>
+<p>设直杆的轴向拉力为 <code>$F$</code> ，横截面积为 <code>$A$</code> 。</p>
+<div style="text-align: center;">
+  <img src="https://pic1.imgdb.cn/item/67d05c84066befcec6e36264.png" alt="" style="display: inline-block; max-width: 100%; height: auto;">
+</div>
+
+<p>以上图中为例：</p>
+<p>截面 <code>$AB$</code> 对应的面积为：</p>
+<p><code>$$ A_\alpha =\frac A {\cos{\alpha}} $$</code></p>
+<p>斜截面上的应力为 <code>$p_{\alpha}$</code> 其方向根据轴力方向可得为水平方向。有：</p>
+<p><code>$$ p_\alpha = \frac {F_\alpha}{A_\alpha}=\frac{F}{A_\alpha} $$</code></p>
+<p>将应力分解为垂直于斜截面的正应力 <code>$\sigma_\alpha$</code> 和相切于斜截面的切应力 <code>$\tau_\alpha$</code> 。</p>
+<p><code>$$ \sigma_\alpha = p_\alpha \cos {\alpha} \\\notag\\ \ \ \\ \tau_\alpha=p_\alpha\sin{\alpha} $$</code></p>
+<p>根据四个式子的关系，最终可以得到：</p>
+<p><code>$$ \sigma_\alpha = \sigma \cos^2{\alpha} \\ \ \\ \tau_\alpha = \frac{\sigma}{2}\sin{2\alpha} $$</code></p>
+<p>上面两个式子描述了某个斜截面的正应力和切应力与其对应的横截面所受到的正应力的关系。由此关系我们可以得到一些有趣的结论。下图是两个式子中 <code>$\sigma$</code> 的系数随着角度 <code>$\alpha$</code> 变化的图像。</p>
+<div style="text-align: center;">
+  <img src="../pic/Normal%20stress%20and%20shear%20stress.bmp" alt="" style="display: inline-block; max-width: 100%; height: auto;">
+</div>
+
+<p>我们可以发现以下三个结论：</p>
+<ol>
+<li><code>$\alpha=0 $</code> 时，正应力出现最大值。</li>
+<li><code>$\alpha=\frac {1}{4}\pi$</code> 时，切应力出现最大值。</li>
+<li><code>$\alpha=\frac {1}{2}\pi$</code> 时，两个应力消失，即平行与杆件轴线方向的纵向截面上没有任何应力。</li>
+</ol>
+<h2 id="不同材料拉伸时的力学性能">不同材料拉伸时的力学性能<a hidden class="anchor" aria-hidden="true" href="#不同材料拉伸时的力学性能">#</a></h2>
+<h3 id="低碳钢塑性材料">低碳钢（塑性材料）<a hidden class="anchor" aria-hidden="true" href="#低碳钢塑性材料">#</a></h3>
+<p>低碳钢被拉伸时，分为四个阶段：</p>
+<ol>
+<li>弹性阶段，此时有： <code>$\sigma=E\epsilon$</code> (<code>$E$</code>为图片上线段的斜率)，即材料发生跟弹簧一样的变形的阶段。</li>
+<li>屈服阶段，此时材料的应力基本不变，但是材料的应变却在不断增加，产生塑性变形，可在抛光部件上见到 <code>$\frac {1}{4}\pi$</code> 的滑移线。</li>
+<li>强化阶段：此时材料的抵抗变形能力部分恢复，随着应变的增加，材料有应力最大点。</li>
+<li>局部变形阶段：过了应力最大点之后，材料某一段横截面积突然极具减小，直到试样被拉断。</li>
+</ol>
+<p>试样被拉断后，由以下公式计算伸长率和断面收缩率：</p>
+<p><code>$$ \delta = \frac{l_1-l}{l} \\ \ \\\psi=\frac{A-A_1}A $$</code></p>
+<p>假如 <code>$\delta &gt;5\%$</code> 那么材料被称作塑性材料，反之则为脆性材料。</p>
+<h3 id="铸铁脆性材料">铸铁（脆性材料）<a hidden class="anchor" aria-hidden="true" href="#铸铁脆性材料">#</a></h3>
+<p>铸铁在拉伸实验时，没有塑性材料的后面三个阶段，试样在一定变形后直接断裂。同时，脆性材料在弹性变形时的 <code>$\sigma-\epsilon$</code> 曲线从低应力开始就是曲线。</p>
+<h2 id="材料的压缩性能">材料的压缩性能<a hidden class="anchor" aria-hidden="true" href="#材料的压缩性能">#</a></h2>
+<h3 id="低碳钢塑性材料-1">低碳钢（塑性材料）<a hidden class="anchor" aria-hidden="true" href="#低碳钢塑性材料-1">#</a></h3>
+<p>压缩时， <code>$\sigma_s$</code> 和弹性模量 <code>$E$</code> 和拉伸时基本一致，在屈服阶段后，材料逐渐变成薄饼。</p>
+<h3 id="铸钢脆性材料">铸钢（脆性材料）<a hidden class="anchor" aria-hidden="true" href="#铸钢脆性材料">#</a></h3>
+<p>材料在压缩时， <code>$\sigma_b$</code> 要比拉伸时要大很多，宜作受压构件。材料在应力较低时，应力应变曲线也只是近似满足胡克定律。材料最后沿着与横截面50~55度的斜截面被破坏。</p>
+<h2 id="安全失效计算">安全、失效计算<a hidden class="anchor" aria-hidden="true" href="#安全失效计算">#</a></h2>
+<p>为了保证材料在实际应用的安全，有设计冗余，便有了安全系数和应许应力，它们满足：</p>
+<p><code>$$ [\sigma] =\frac {\sigma_u}{n} $$</code></p>
+<p>对于不同的材料，安全系数有不同取值范围：一般来说，塑性材料的安全系数要小于脆性材料的安全系数，但它们都大于1。</p>
+<h2 id="轴向拉伸或者压缩时的变形">轴向拉伸或者压缩时的变形<a hidden class="anchor" aria-hidden="true" href="#轴向拉伸或者压缩时的变形">#</a></h2>
+<h3 id="轴向变形">轴向变形<a hidden class="anchor" aria-hidden="true" href="#轴向变形">#</a></h3>
+<p>根据公式有：</p>
+<p><code>$$ \sigma = \frac {F_N} A \\ \ \\ \sigma = E\epsilon = E\frac{\Delta l} l $$</code></p>
+<p>所以可以得到：</p>
+<p><code>$$ \Delta l=\frac {F_Nl}{EA} $$</code></p>
+<h3 id="横向变形">横向变形<a hidden class="anchor" aria-hidden="true" href="#横向变形">#</a></h3>
+<p>对于横向变形，引入泊松比 <code>$\mu$</code> ，其为横向应变与轴向应变的比值绝对值。</p>
+<p><code>$$ \mu = \left| \frac {\epsilon'}{\epsilon} \right| $$</code></p>
+<p>一般来说，生活中绝大部分材料都是正泊松比材料。</p>
+<h2 id="应变能">应变能<a hidden class="anchor" aria-hidden="true" href="#应变能">#</a></h2>
+<p>固体在外力作用下，因为变形储存的能量。符号记作 <code>$V_\epsilon$</code> 。</p>
+<p><code>$$ dW = Fd(\Delta l) \\ \\W= \int_{0}^{\Delta l_1} {Fd(\Delta l)} $$</code></p>
+<p>在塑性阶段（塑性极限为 <code>$\sigma_p$</code> ），有：</p>
+<p><code>$$ V_\epsilon = W= \frac 1 2 F\Delta l $$</code></p>
+<p>单位体积所具有的应变能称为 <strong>应变能密度</strong> 。</p>
+<h2 id="应力集中">应力集中<a hidden class="anchor" aria-hidden="true" href="#应力集中">#</a></h2>
+<p>因为杆件外形突然变化，导致局部应力突然增加的现象称为应力集中。</p>
+<p>例如下图中该部分在受压时，由于孔的结构，导致其出现应力最大值。</p>
+<p><div style="text-align: center;">
+  <img src="https://pic1.imgdb.cn/item/67d05c84066befcec6e36265.png" alt="" style="display: inline-block; max-width: 100%; height: auto;">
+</div>
+
+<div style="text-align: center;">
+  <img src="#ZgotmplZ" alt="" style="display: inline-block; max-width: 100%; height: auto;">
+</div>
+</p>
+<p>（图二绘图路径为穿过孔的平行于X轴的线。）</p>
+<p>理论应力集中系数满足：</p>
+<p><code>$$ K_\sigma = \frac {\sigma_{max}}{\sigma_{平均}} $$</code></p>
+<h2 id="圣维南原理">圣维南原理<a hidden class="anchor" aria-hidden="true" href="#圣维南原理">#</a></h2>
+<p>该原理并没有被完全证明，但实际使用却很多，原理描述如下：</p>
+<p>对于一个杆件，杆端加载方式的不同，只会影响到杆端附近截面的应力分布，离作用点稍远的地方，影响很小。例如我们在改变载荷的分布方式时，就可以据此进行计算。</p>
+
+
+  </div>
+
+  <footer class="post-footer">
+    <ul class="post-tags">
+      <li><a href="https://kdiidnblog.site/tags/learning/">Learning</a></li>
+      <li><a href="https://kdiidnblog.site/tags/notes/">Notes</a></li>
+      <li><a href="https://kdiidnblog.site/tags/%E8%AF%BE%E5%A0%82%E7%AC%94%E8%AE%B0/">课堂笔记</a></li>
+    </ul>
+<nav class="paginav">
+  <a class="prev" href="https://kdiidnblog.site/learning/blog_web/%E5%9C%A8%E5%8D%9A%E5%AE%A2%E6%96%87%E7%AB%A0%E4%B8%AD%E4%BD%BF%E7%94%A8latex/">
+    <span class="title">« Prev</span>
+    <br>
+    <span>在博客文章中使用LaTeX</span>
+  </a>
+</nav>
+
+  </footer>
+</article>
+    </main>
+    
+<footer class="footer">
+        <span>©Copyright 2025 Kdiidn</span> · 
+
+    <span>
+        Powered by
+        <a href="https://gohugo.io/" rel="noopener noreferrer" target="_blank">Hugo</a> &
+        <a href="https://github.com/adityatelange/hugo-PaperMod/" rel="noopener" target="_blank">PaperMod</a>
+    </span>
+</footer>
+<a href="#top" aria-label="go to top" title="Go to Top (Alt + G)" class="top-link" id="top-link" accesskey="g">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 12 6" fill="currentColor">
+        <path d="M12 6H0l6-6z" />
+    </svg>
+</a>
+
+<script>
+    let menu = document.getElementById('menu')
+    if (menu) {
+        menu.scrollLeft = localStorage.getItem("menu-scroll-position");
+        menu.onscroll = function () {
+            localStorage.setItem("menu-scroll-position", menu.scrollLeft);
+        }
+    }
+
+    document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+        anchor.addEventListener("click", function (e) {
+            e.preventDefault();
+            var id = this.getAttribute("href").substr(1);
+            if (!window.matchMedia('(prefers-reduced-motion: reduce)').matches) {
+                document.querySelector(`[id='${decodeURIComponent(id)}']`).scrollIntoView({
+                    behavior: "smooth"
+                });
+            } else {
+                document.querySelector(`[id='${decodeURIComponent(id)}']`).scrollIntoView();
+            }
+            if (id === "top") {
+                history.replaceState(null, null, " ");
+            } else {
+                history.pushState(null, null, `#${id}`);
+            }
+        });
+    });
+
+</script>
+<script>
+    var mybutton = document.getElementById("top-link");
+    window.onscroll = function () {
+        if (document.body.scrollTop > 800 || document.documentElement.scrollTop > 800) {
+            mybutton.style.visibility = "visible";
+            mybutton.style.opacity = "1";
+        } else {
+            mybutton.style.visibility = "hidden";
+            mybutton.style.opacity = "0";
+        }
+    };
+
+</script>
+<script>
+    document.querySelectorAll('pre > code').forEach((codeblock) => {
+        const container = codeblock.parentNode.parentNode;
+
+        const copybutton = document.createElement('button');
+        copybutton.classList.add('copy-code');
+        copybutton.innerHTML = 'copy';
+
+        function copyingDone() {
+            copybutton.innerHTML = 'copied!';
+            setTimeout(() => {
+                copybutton.innerHTML = 'copy';
+            }, 2000);
+        }
+
+        copybutton.addEventListener('click', (cb) => {
+            if ('clipboard' in navigator) {
+                navigator.clipboard.writeText(codeblock.textContent);
+                copyingDone();
+                return;
+            }
+
+            const range = document.createRange();
+            range.selectNodeContents(codeblock);
+            const selection = window.getSelection();
+            selection.removeAllRanges();
+            selection.addRange(range);
+            try {
+                document.execCommand('copy');
+                copyingDone();
+            } catch (e) { };
+            selection.removeRange(range);
+        });
+
+        if (container.classList.contains("highlight")) {
+            container.appendChild(copybutton);
+        } else if (container.parentNode.firstChild == container) {
+            
+        } else if (codeblock.parentNode.parentNode.parentNode.parentNode.parentNode.nodeName == "TABLE") {
+            
+            codeblock.parentNode.parentNode.parentNode.parentNode.parentNode.appendChild(copybutton);
+        } else {
+            
+            codeblock.parentNode.appendChild(copybutton);
+        }
+    });
+</script>
+</body>
+
+</html>

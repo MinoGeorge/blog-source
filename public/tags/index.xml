@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Tags on Kdiidn&#39;s Blog</title>
+    <link>https://kdiidnblog.site/tags/</link>
+    <description>Recent content in Tags on Kdiidn&#39;s Blog</description>
+    <generator>Hugo -- 0.151.0</generator>
+    <language>en</language>
+    <copyright>©Copyright 2025 Kdiidn</copyright>
+    <lastBuildDate>Mon, 10 Mar 2025 16:47:24 +0800</lastBuildDate>
+    <atom:link href="https://kdiidnblog.site/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Learning</title>
+      <link>https://kdiidnblog.site/tags/learning/</link>
+      <pubDate>Mon, 10 Mar 2025 16:47:24 +0800</pubDate>
+      <guid>https://kdiidnblog.site/tags/learning/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Notes</title>
+      <link>https://kdiidnblog.site/tags/notes/</link>
+      <pubDate>Mon, 10 Mar 2025 16:47:24 +0800</pubDate>
+      <guid>https://kdiidnblog.site/tags/notes/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>课堂笔记</title>
+      <link>https://kdiidnblog.site/tags/%E8%AF%BE%E5%A0%82%E7%AC%94%E8%AE%B0/</link>
+      <pubDate>Mon, 10 Mar 2025 16:47:24 +0800</pubDate>
+      <guid>https://kdiidnblog.site/tags/%E8%AF%BE%E5%A0%82%E7%AC%94%E8%AE%B0/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Blog</title>
+      <link>https://kdiidnblog.site/tags/blog/</link>
+      <pubDate>Mon, 24 Feb 2025 21:20:49 +0800</pubDate>
+      <guid>https://kdiidnblog.site/tags/blog/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>LaTeX</title>
+      <link>https://kdiidnblog.site/tags/latex/</link>
+      <pubDate>Mon, 24 Feb 2025 21:20:49 +0800</pubDate>
+      <guid>https://kdiidnblog.site/tags/latex/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Educated</title>
+      <link>https://kdiidnblog.site/tags/educated/</link>
+      <pubDate>Thu, 20 Feb 2025 15:38:24 +0800</pubDate>
+      <guid>https://kdiidnblog.site/tags/educated/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Reading</title>
+      <link>https://kdiidnblog.site/tags/reading/</link>
+      <pubDate>Thu, 20 Feb 2025 15:38:24 +0800</pubDate>
+      <guid>https://kdiidnblog.site/tags/reading/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>你当像鸟飞向你的山</title>
+      <link>https://kdiidnblog.site/tags/%E4%BD%A0%E5%BD%93%E5%83%8F%E9%B8%9F%E9%A3%9E%E5%90%91%E4%BD%A0%E7%9A%84%E5%B1%B1/</link>
+      <pubDate>Thu, 20 Feb 2025 15:38:24 +0800</pubDate>
+      <guid>https://kdiidnblog.site/tags/%E4%BD%A0%E5%BD%93%E5%83%8F%E9%B8%9F%E9%A3%9E%E5%90%91%E4%BD%A0%E7%9A%84%E5%B1%B1/</guid>
+      <description></description>
+    </item>
+  </channel>
+</rss>
