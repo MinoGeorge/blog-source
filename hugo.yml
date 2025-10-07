@@ -61,6 +61,7 @@ params:
   ShowBreadCrumbs: true
   ShowCodeCopyButtons: true
   ShowAllPagesInArchive: true
+  social: {}
 
 
 #languages:
