@@ -1,4 +1,4 @@
-name: Deploy Hugo to GitHub Pages
+name: Deploy to Pages repo
 
 on:
   push:
@@ -7,10 +7,6 @@ on:
 jobs:
   deploy:
     runs-on: ubuntu-latest
-    permissions:
-      contents: read
-      pages: write
-      id-token: write
     steps:
       - uses: actions/checkout@v4
         with:
@@ -20,16 +16,17 @@ jobs:
       - name: Setup Hugo
         uses: peaceiris/actions-hugo@v3
         with:
-          hugo-version: "0.151.0" # 用你本地相同版本
+          hugo-version: "0.139.2"
           extended: true
 
       - name: Build
         run: hugo --minify --gc
 
+      # 关键：用 deploy_key 推送到外部仓库
       - name: Deploy
         uses: peaceiris/actions-gh-pages@v4
         with:
-          github_token: ${{ secrets.GITHUB_TOKEN }}
-          publish_dir: ./docs
-          publish_branch: main # 把静态文件推到 <用户名>.github.io 的 main 分支
-          external_repository: MinoGeorge/MinoGeorge.github.io
+          deploy_key: ${{ secrets.ACTIONS_DEPLOY_KEY }} # ← 改这里
+          external_repository: MinoGeorge/MinoGeorge.github.io # ← 你的 Pages 库
+          publish_branch: main # ← Pages 库分支
+          publish_dir: ./public # Hugo 默认输出目录
