@@ -6,47 +6,13 @@
         {{- else }}
         <span>&copy; {{ now.Year }} <a href="{{ "" | absLangURL }}">{{ site.Title }}</a></span>
         {{- end }}
+        {{- print " · "}}
     {{- end }}
 
     {{- with site.Params.footer.text }}
         {{ . | markdownify }}
         {{- print " · "}}
     {{- end }}
-
-    <div class="备案信息">
-        <!-- 添加网站备案号 -->
-        {{- if site.Params.icpRecord }}
-            <span>
-
-                    <a href="{{ site.Params.icpRecordLink }}" target="_blank">
-                        鄂ICP备2024084719号-1&nbsp;
-                    </a>
-
-            </span>
-        {{- end }}
-
-
-        <!-- 添加公安备案号及图片 -->
-        {{- if site.Params.publicSecurityRecord }}
-            <span>
-                {{- if site.Params.policeIcon }}
-                    <a href="{{ site.Params.publicSecurityRecordLink }}" target="_blank" rel="noreferrer">
-                        <img src="{{ site.Params.policeIcon | absURL }}" alt="公安备案图标" style="display:inline-block;vertical-align: middle;text-decoration:none;height:15px;line-height:20px;">
-                        鄂公网安备42282202000158号
-                    </a>
-                {{- end }}
-                {{- if site.Params.moeicpRecord }}
-
-
-                            <a href="{{ site.Params.moeicpRecordLink }}" target="_blank">
-                                萌ICP备20255739号
-                            </a>
-
-
-                {{- end }}
-            </span>
-        {{- end }}
-    </div>
 
     <span>
         Powered by

@@ -2,10 +2,8 @@
 
 <article class="post-single">
   <header class="post-header">
-
     {{ partial "breadcrumbs.html" . }}
     <h1 class="post-title entry-hint-parent">
-
       {{ .Title }}
       {{- if .Draft }}
       <span class="entry-hint" title="Draft">
@@ -16,7 +14,6 @@
       </span>
       {{- end }}
     </h1>
-
     {{- if .Description }}
     <div class="post-description">
       {{ .Description }}
@@ -46,7 +43,6 @@
   {{- end }}
 
   <footer class="post-footer">
-
     {{- $tags := .Language.Params.Taxonomies.tag | default "tags" }}
     <ul class="post-tags">
       {{- range ($.GetTerms $tags) }}
@@ -59,17 +55,11 @@
     {{- if (and site.Params.ShowShareButtons (ne .Params.disableShare true)) }}
     {{- partial "share_icons.html" . -}}
     {{- end }}
-
-
-
   </footer>
-
 
   {{- if (.Param "comments") }}
   {{- partial "comments.html" . }}
   {{- end }}
-
-
 </article>
 
 {{- end }}{{/* end main */}}
