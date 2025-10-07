@@ -32,4 +32,4 @@ jobs:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           publish_dir: ./docs
           publish_branch: main # 把静态文件推到 <用户名>.github.io 的 main 分支
-          external_repository: MinoGrorge/MiniGrorge.github.io
+          external_repository: MinoGeorge/MiniGeorge.github.io
