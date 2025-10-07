@@ -118,4 +118,13 @@ markup:
     # codeFences: true
     # guessSyntax: true
     lineNos: true
+
+
     # style: monokai
+    #
+    #
+# 其他配置...
+build:
+  ignoreErrors:
+    - "deprecated"
+
