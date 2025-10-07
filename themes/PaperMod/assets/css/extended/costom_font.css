@@ -1,0 +1,24 @@
+@font-face {
+    font-family: "OS-2";
+    src: url("/font/Open-Sans-2.ttf") format("truetype");
+}
+
+@font-face {
+    font-family: 'MOMO';
+    src: url('/font/JetBrainsMono-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+body {
+    font-family: "OS-2";
+}
+
+body .post-content pre,
+body .post-content code {
+    font-family: "MOMO" !important;
+}
+}
+code {
+    font-family: monospace;
+}
