@@ -2,18 +2,18 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>电工学 on Kdiidn&#39;s Blog</title>
-    <link>https://kdiidnblog.site/learning/%E7%94%B5%E5%B7%A5%E5%AD%A6/</link>
+    <link>https://MinoGeorge.github.io/learning/%E7%94%B5%E5%B7%A5%E5%AD%A6/</link>
     <description>Recent content in 电工学 on Kdiidn&#39;s Blog</description>
     <generator>Hugo -- 0.151.0</generator>
     <language>en</language>
     <copyright>©Copyright 2025 Kdiidn</copyright>
     <lastBuildDate>Mon, 10 Mar 2025 16:47:24 +0800</lastBuildDate>
-    <atom:link href="https://kdiidnblog.site/learning/%E7%94%B5%E5%B7%A5%E5%AD%A6/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://MinoGeorge.github.io/learning/%E7%94%B5%E5%B7%A5%E5%AD%A6/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>[电工学]电路基本概念和基本定律</title>
-      <link>https://kdiidnblog.site/learning/%E7%94%B5%E5%B7%A5%E5%AD%A6/%E7%AC%AC%E4%B8%80%E7%AB%A0-%E7%94%B5%E8%B7%AF%E5%9F%BA%E6%9C%AC%E6%A6%82%E5%BF%B5%E5%92%8C%E5%9F%BA%E6%9C%AC%E5%AE%9A%E5%BE%8B/</link>
+      <link>https://MinoGeorge.github.io/learning/%E7%94%B5%E5%B7%A5%E5%AD%A6/%E7%AC%AC%E4%B8%80%E7%AB%A0-%E7%94%B5%E8%B7%AF%E5%9F%BA%E6%9C%AC%E6%A6%82%E5%BF%B5%E5%92%8C%E5%9F%BA%E6%9C%AC%E5%AE%9A%E5%BE%8B/</link>
       <pubDate>Mon, 10 Mar 2025 16:47:24 +0800</pubDate>
-      <guid>https://kdiidnblog.site/learning/%E7%94%B5%E5%B7%A5%E5%AD%A6/%E7%AC%AC%E4%B8%80%E7%AB%A0-%E7%94%B5%E8%B7%AF%E5%9F%BA%E6%9C%AC%E6%A6%82%E5%BF%B5%E5%92%8C%E5%9F%BA%E6%9C%AC%E5%AE%9A%E5%BE%8B/</guid>
+      <guid>https://MinoGeorge.github.io/learning/%E7%94%B5%E5%B7%A5%E5%AD%A6/%E7%AC%AC%E4%B8%80%E7%AB%A0-%E7%94%B5%E8%B7%AF%E5%9F%BA%E6%9C%AC%E6%A6%82%E5%BF%B5%E5%92%8C%E5%9F%BA%E6%9C%AC%E5%AE%9A%E5%BE%8B/</guid>
       <description>&lt;h2 id=&#34;1参考方向&#34;&gt;1.参考方向&lt;/h2&gt;
 &lt;p&gt;参考方向在电路计算中可以简化确定实际电流方向的难度，通过在原有公式的基础上增加一套正负号来减轻复杂电路分析的成本。（可以与单位向量概念联系）&lt;/p&gt;</description>
     </item>

@@ -2,18 +2,18 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>工程化学 on Kdiidn&#39;s Blog</title>
-    <link>https://kdiidnblog.site/learning/%E5%B7%A5%E7%A8%8B%E5%8C%96%E5%AD%A6/</link>
+    <link>https://MinoGeorge.github.io/learning/%E5%B7%A5%E7%A8%8B%E5%8C%96%E5%AD%A6/</link>
     <description>Recent content in 工程化学 on Kdiidn&#39;s Blog</description>
     <generator>Hugo -- 0.151.0</generator>
     <language>en</language>
     <copyright>©Copyright 2025 Kdiidn</copyright>
     <lastBuildDate>Mon, 10 Mar 2025 16:47:24 +0800</lastBuildDate>
-    <atom:link href="https://kdiidnblog.site/learning/%E5%B7%A5%E7%A8%8B%E5%8C%96%E5%AD%A6/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://MinoGeorge.github.io/learning/%E5%B7%A5%E7%A8%8B%E5%8C%96%E5%AD%A6/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>[工程化学]化学热力学</title>
-      <link>https://kdiidnblog.site/learning/%E5%B7%A5%E7%A8%8B%E5%8C%96%E5%AD%A6/%E5%8C%96%E5%AD%A6%E7%83%AD%E5%8A%9B%E5%AD%A6/</link>
+      <link>https://MinoGeorge.github.io/learning/%E5%B7%A5%E7%A8%8B%E5%8C%96%E5%AD%A6/%E5%8C%96%E5%AD%A6%E7%83%AD%E5%8A%9B%E5%AD%A6/</link>
       <pubDate>Mon, 10 Mar 2025 16:47:24 +0800</pubDate>
-      <guid>https://kdiidnblog.site/learning/%E5%B7%A5%E7%A8%8B%E5%8C%96%E5%AD%A6/%E5%8C%96%E5%AD%A6%E7%83%AD%E5%8A%9B%E5%AD%A6/</guid>
+      <guid>https://MinoGeorge.github.io/learning/%E5%B7%A5%E7%A8%8B%E5%8C%96%E5%AD%A6/%E5%8C%96%E5%AD%A6%E7%83%AD%E5%8A%9B%E5%AD%A6/</guid>
       <description>&lt;h2 id=&#34;热力学常用术语&#34;&gt;热力学常用术语&lt;/h2&gt;
 &lt;p&gt;体系：研究对象，根据研究对象的不同，又可以划分为：敞开体系（体系与环境之间既有能量转换，又有物质交换），封闭体系（体系与环境之间有能量转换，没有物质交换），孤立体系（体系与环境之间既无能量转换，又无物质交换。）&lt;/p&gt;</description>
     </item>

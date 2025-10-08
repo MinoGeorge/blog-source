@@ -2,18 +2,26 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Kdiidn&#39;s Blog</title>
-    <link>https://kdiidnblog.site/post/</link>
+    <link>https://MinoGeorge.github.io/post/</link>
     <description>Recent content on Kdiidn&#39;s Blog</description>
     <generator>Hugo -- 0.151.0</generator>
     <language>en</language>
     <copyright>©Copyright 2025 Kdiidn</copyright>
-    <lastBuildDate>Sun, 23 Mar 2025 14:46:32 +0800</lastBuildDate>
-    <atom:link href="https://kdiidnblog.site/post/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 08 Oct 2025 11:28:38 +0800</lastBuildDate>
+    <atom:link href="https://MinoGeorge.github.io/post/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Back</title>
+      <link>https://MinoGeorge.github.io/back/</link>
+      <pubDate>Wed, 08 Oct 2025 11:28:38 +0800</pubDate>
+      <guid>https://MinoGeorge.github.io/back/</guid>
+      <description>&lt;h1 id=&#34;归来&#34;&gt;归来&lt;/h1&gt;
+&lt;p&gt;实际上，我大概有很久没有登录我的博客并更新了，思考着反正关注的人很少，不写倒也是可以的。但是我忘记了我建立这个站点的初衷——不是为了谁，不是为了写。只是像是日记一样慢慢去写，记录我自己的生活，这就是那片无人的地方——除了我，和白花花的雪。&lt;/p&gt;</description>
+    </item>
     <item>
       <title>K-Week(1)</title>
-      <link>https://kdiidnblog.site/k-week1/</link>
+      <link>https://MinoGeorge.github.io/k-week1/</link>
       <pubDate>Sun, 23 Mar 2025 14:46:32 +0800</pubDate>
-      <guid>https://kdiidnblog.site/k-week1/</guid>
+      <guid>https://MinoGeorge.github.io/k-week1/</guid>
       <description>&lt;p&gt;Hello, everyone.&lt;/p&gt;
 &lt;p&gt;准确来说，这是第一期周报（开瓶84年的可乐庆祝一下），我在想要不要写个劲爆的开场？&lt;/p&gt;
 &lt;p&gt;来看看这周发生了些什么&amp;hellip;&amp;hellip;&lt;/p&gt;
@@ -22,9 +30,9 @@
     </item>
     <item>
       <title>书籍，音乐和娱乐</title>
-      <link>https://kdiidnblog.site/%E4%B9%A6%E7%B1%8D%E9%9F%B3%E4%B9%90%E5%92%8C%E5%A8%B1%E4%B9%90/</link>
+      <link>https://MinoGeorge.github.io/%E4%B9%A6%E7%B1%8D%E9%9F%B3%E4%B9%90%E5%92%8C%E5%A8%B1%E4%B9%90/</link>
       <pubDate>Mon, 18 Dec 2023 14:46:32 +0800</pubDate>
-      <guid>https://kdiidnblog.site/%E4%B9%A6%E7%B1%8D%E9%9F%B3%E4%B9%90%E5%92%8C%E5%A8%B1%E4%B9%90/</guid>
+      <guid>https://MinoGeorge.github.io/%E4%B9%A6%E7%B1%8D%E9%9F%B3%E4%B9%90%E5%92%8C%E5%A8%B1%E4%B9%90/</guid>
       <description>&lt;p&gt;现代社会，我们所获取信息的方式逐渐变得多元化，每个人都可以在互联网上找到自己所需的东西——无论是商品，还是知识。阅读似乎变成一件奢求的事，我们似乎更加注重结果而不是享受过程。当年的闲书早已落下灰尘，泛黄的书页透露着我们那段最美丽的岁月。&lt;/p&gt;</description>
     </item>
   </channel>
